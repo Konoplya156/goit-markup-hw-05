@@ -860,6 +860,9 @@ ul {
 
 
 
+/* -----------EXAMPLE---------- */
+
+
 
 .example-item {
     flex-basis: calc((100% - 60px) / 3);
@@ -874,6 +877,10 @@ ul {
     transform: translateY(0);
     overflow: hidden;
 }
+
+
+.example-item-cursor:hover .example-top-text {}
+
 
 
 
@@ -933,6 +940,7 @@ ul {
 
 .example-item-cursor {
     display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
