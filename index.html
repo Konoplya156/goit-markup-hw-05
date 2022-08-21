@@ -348,6 +348,27 @@
                         <use href="./images/symbol-defs.svg#icon-close-black-18dp"></use>
                     </svg>
                 </button>
+                <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+                <form class="modal-form">
+                    <input type="text"
+                    minlength="4"
+                    class="form-input" 
+                    name="user-name" 
+                    placeholder="Имя"
+                    required>
+                    <input type="tel"
+                    minlength="10"
+                    maxlength="15"
+                    class="form-input" 
+                    name="user-number" 
+                    placeholder="Телефон" required>
+                    <input type="email"
+                    minlength="5"
+                    class="form-input" 
+                    name="user-email" 
+                    placeholder="Почта" required>
+                    <button type="submit">Отправить</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
