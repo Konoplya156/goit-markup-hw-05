@@ -884,7 +884,9 @@ ul {
     transform: translateY(0);
     overflow: hidden;
     transform: translateY(0);
-        opacity: 1;
+    opacity: 1;
+    transform: translateY(0);
+    opacity: 1;
 }
 
 
